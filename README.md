@@ -14,7 +14,7 @@ $ convert magick:rose test.jpg
 
 From the command-line run the thumbnail script:
 ``` sh
-$ convert magick:rose test.jpg
+$ php thumbnail.php
 ```
 
 In a separate terminal window run the event collector:
