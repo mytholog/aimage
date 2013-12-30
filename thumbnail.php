@@ -22,7 +22,6 @@ $worker->register ('thumbnail', function ($filename, $width, $height) {
                                         $im = new Imagick ($filename);
                                         $im->thumbnailImage ($width, $height);
                                         $im->writeImage ($out);
-                                        sleep(2);
                                     }
                                     catch (Exception $e) {
                                         $status = 0;
